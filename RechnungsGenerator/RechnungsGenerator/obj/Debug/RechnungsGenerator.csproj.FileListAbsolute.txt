@@ -1,0 +1,15 @@
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\bin\Debug\RechnungsGenerator.exe.config
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\bin\Debug\RechnungsGenerator.exe
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\bin\Debug\RechnungsGenerator.pdb
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.csproj.AssemblyReference.cache
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\MainWindow.g.cs
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\App.g.cs
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator_MarkupCompile.cache
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\MainWindow.baml
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.g.resources
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.Properties.Resources.resources
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.csproj.GenerateResource.cache
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.csproj.CoreCompileInputs.cache
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.exe
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.pdb
+E:\PRJ\KundenProjekt\RechnungsGenerator\RechnungsGenerator\obj\Debug\RechnungsGenerator.exe.config

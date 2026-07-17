@@ -1,0 +1,89 @@
+﻿<Window x:Class="RechnungsGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kundenprojekt: Rechnungs- und Angebotsgenerator" Height="650" Width="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" BorderBrush="LightGray" BorderThickness="0,0,1,0" Padding="0,0,10,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="Kundenverwaltung" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+                <ListBox Grid.Row="1" x:Name="lstKunden" Margin="0,0,0,10"/>
+
+                <Button Grid.Row="2" x:Name="btnNeuerKunde" Content="Neuen Kunden anlegen" Height="30" Margin="0,0,0,20"/>
+
+                <TextBlock Grid.Row="3" Text="Erstellte Dokumente (Historie)" FontSize="14" FontWeight="Bold" Margin="0,0,0,5"/>
+                <ListBox Grid.Row="4" x:Name="lstErstellteDokumente"/>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Column="1" Margin="15,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,15">
+                <TextBlock Text="Dokumententyp auswählen:" VerticalAlignment="Center" FontWeight="Bold" Margin="0,0,15,0"/>
+                <RadioButton Content="Angebot" IsChecked="True" x:Name="rbAngebot" VerticalAlignment="Center" Margin="0,0,15,0"/>
+                <RadioButton Content="Rechnung" x:Name="rbRechnung" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <DataGrid Grid.Row="1" x:Name="dgPositionen" AutoGenerateColumns="False" CanUserAddRows="False" HeadersVisibility="Column">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Bezeichnung" Width="*" Binding="{Binding Bezeichnung}"/>
+                    <DataGridTextColumn Header="Menge" Width="80" Binding="{Binding Menge}"/>
+                    <DataGridTextColumn Header="Einzelpreis (€)" Width="100" Binding="{Binding Einzelpreis, StringFormat={}{0:C}}"/>
+                    <DataGridTextColumn Header="Gesamtpreis (€)" Width="120" Binding="{Binding Gesamtpreis, StringFormat={}{0:C}}" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button Grid.Row="2" x:Name="btnPositionHinzufuegen" Content="+ Position hinzufügen" HorizontalAlignment="Left" Width="150" Height="30" Margin="0,10,0,10"/>
+
+            <Border Grid.Row="3" BorderBrush="LightGray" BorderThickness="0,1,0,0" Padding="0,15,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="150"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Bottom">
+                        <TextBlock Text="Rabatt (%):" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtRabatt" Width="50" Height="25" VerticalAlignment="Center" Text="0"/>
+                        <Button x:Name="btnDokumentErstellen" Content="Dokument erstellen" Width="150" Height="35" FontWeight="Bold" Margin="30,0,0,0"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,15,0">
+                        <TextBlock Text="Zwischensumme:" Margin="0,2"/>
+                        <TextBlock Text="Rabatt:" Margin="0,2"/>
+                        <TextBlock Text="Mehrwertsteuer (19%):" Margin="0,2"/>
+                        <TextBlock Text="Endbetrag:" FontSize="16" FontWeight="Bold" Margin="0,5,0,2"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2" HorizontalAlignment="Right">
+                        <TextBlock x:Name="lblZwischensumme" Text="0,00 €" Margin="0,2"/>
+                        <TextBlock x:Name="lblRabatt" Text="0,00 €" Margin="0,2"/>
+                        <TextBlock x:Name="lblMwSt" Text="0,00 €" Margin="0,2"/>
+                        <TextBlock x:Name="lblEndbetrag" Text="0,00 €" FontSize="16" FontWeight="Bold" Foreground="DarkGreen" Margin="0,5,0,2"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
