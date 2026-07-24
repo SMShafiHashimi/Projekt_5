@@ -10,7 +10,7 @@ namespace RechnungsGenerator.Daten
     {
         public string DokumentNummer {  get; set; }
         public string Typ {  get; set; }
-        DateTime Datum { get; set; }
+        public DateTime Datum { get; set; }
         public Kunde Empfaenger { get; set; }
         public List<PositionsPosten> Positionen {  get; set; } = new List<PositionsPosten>();
         public double RabattInProzent { get; set; }

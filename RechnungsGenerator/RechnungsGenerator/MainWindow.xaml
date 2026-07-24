@@ -16,17 +16,28 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="150"/>
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Row="0" Text="Kundenverwaltung" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
-                <ListBox Grid.Row="1" x:Name="lstKunden" Margin="0,0,0,10"/>
 
-                <Button Grid.Row="2" x:Name="btnNeuerKunde" Content="Neuen Kunden anlegen" Height="30" Margin="0,0,0,20"/>
+                <!-- Kundenliste -->
+                <ListBox Grid.Row="1" x:Name="lstKunden" Margin="0,0,0,10" SelectionChanged="lstKunden_SelectionChanged"/>
 
-                <TextBlock Grid.Row="3" Text="Erstellte Dokumente (Historie)" FontSize="14" FontWeight="Bold" Margin="0,0,0,5"/>
-                <ListBox Grid.Row="4" x:Name="lstErstellteDokumente"/>
+                <!-- Neuer Kunde Bereich (Direkt im Hauptfenster) -->
+                <StackPanel Grid.Row="2" Margin="0,10,0,0">
+                    <TextBlock Text="Neuen Kunden anlegen" FontWeight="Bold" Margin="0,0,0,5"/>
+
+                    <TextBlock Text="Kunden-Nr:"/>
+                    <TextBox x:Name="txtKundenNummer" Margin="0,2,0,5"/>
+
+                    <TextBlock Text="Name / Firma:"/>
+                    <TextBox x:Name="txtName" Margin="0,2,0,5"/>
+
+                    <TextBlock Text="Adresse:"/>
+                    <TextBox x:Name="txtAdresse" Margin="0,2,0,10"/>
+
+                    <Button x:Name="btnNeuerKunde" Content="Kunde speichern" Height="30" Click="btnNeuerKunde_Click"/>
+                </StackPanel>
             </Grid>
         </Border>
 

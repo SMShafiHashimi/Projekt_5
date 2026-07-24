@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\rechnungsgenerator\\daten\\kunde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|solutionrelative:rechnungsgenerator\\daten\\kunde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\rechnungsgenerator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|solutionrelative:rechnungsgenerator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|e:\\prj\\kundenprojekt\\projekt_5\\rechnungsgenerator\\rechnungsgenerator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|solutionrelative:rechnungsgenerator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\rechnungsgenerator\\daten\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|solutionrelative:rechnungsgenerator\\daten\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\rechnungsgenerator\\daten\\dokument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|solutionrelative:rechnungsgenerator\\daten\\dokument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\rechnungsgenerator\\daten\\positionsposten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B2D54-C374-4586-B92F-2AD2C3C5F78F}|RechnungsGenerator\\RechnungsGenerator.csproj|solutionrelative:rechnungsgenerator\\daten\\positionsposten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RechnungsGenerator\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RechnungsGenerator\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T16:46:57.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DB.cs",
+              "DocumentMoniker": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\DB.cs",
+              "RelativeDocumentMoniker": "RechnungsGenerator\\Daten\\DB.cs",
+              "ToolTip": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\DB.cs",
+              "RelativeToolTip": "RechnungsGenerator\\Daten\\DB.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T20:16:50.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RechnungsGenerator\\MainWindow.xaml",
+              "ToolTip": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\MainWindow.xaml",
+              "RelativeToolTip": "RechnungsGenerator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-15T16:46:58.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dokument.cs",
+              "DocumentMoniker": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\Dokument.cs",
+              "RelativeDocumentMoniker": "RechnungsGenerator\\Daten\\Dokument.cs",
+              "ToolTip": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\Dokument.cs",
+              "RelativeToolTip": "RechnungsGenerator\\Daten\\Dokument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T16:56:33.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PositionsPosten.cs",
+              "DocumentMoniker": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\PositionsPosten.cs",
+              "RelativeDocumentMoniker": "RechnungsGenerator\\Daten\\PositionsPosten.cs",
+              "ToolTip": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\PositionsPosten.cs",
+              "RelativeToolTip": "RechnungsGenerator\\Daten\\PositionsPosten.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T16:53:36.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kunde.cs",
+              "DocumentMoniker": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\Kunde.cs",
+              "RelativeDocumentMoniker": "RechnungsGenerator\\Daten\\Kunde.cs",
+              "ToolTip": "E:\\PRJ\\KundenProjekt\\Projekt_5\\RechnungsGenerator\\RechnungsGenerator\\Daten\\Kunde.cs",
+              "RelativeToolTip": "RechnungsGenerator\\Daten\\Kunde.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T16:48:36.899Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
